@@ -1,4 +1,4 @@
-setparent worldpostion stay 
+setparent worldpostion stay ；
 
 false ;
 
