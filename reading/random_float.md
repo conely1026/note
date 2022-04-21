@@ -3,9 +3,10 @@
 c++ 11 
 
 ```c++
-mt19937 rng {random_device{}()} ;
+random_device re ; 
+mt19937 rng {re()} ;
 
-uniform_real_distribution<double> uni {0 , 1} ;
+uniform_real_distribution<double> uni {0 , 1} ;  //[0,1]
 uniform_int_distribution<int> uni  ;
 uni(rng) ;
 
